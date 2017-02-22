@@ -1,0 +1,566 @@
+/* ===================== Dark Red Style ===================== */
+#header h1 {
+	background: url("../images/logo.gif") no-repeat top left;
+}
+
+a, h2, h3, .news h4, #sidebar span {
+	color: #DB7831;
+	align: left;
+}
+
+#location a.button {
+	background-color: #fa271c;
+}
+
+
+/* ===================== CSS Reset ===================== */
+* {
+	border: 0 none;	
+	font-family: HelveticaNeue,Helvetica,Arial,Tahoma,sans-serif;	
+	font-size: 98%;
+align: left;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+/* ===================== General Styles ===================== */
+body {
+	text-align: left;
+}
+
+a {
+	font-size: 98%;
+	text-decoration: none;
+color: #333333; }
+
+a:hover {
+	text-decoration: underline;
+color: #DB7831;  
+}
+
+
+em {
+	font-style: italic;
+}
+
+h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 26px;
+}
+
+h4 {
+	font-size: 21px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+h7 {
+	font-size: 11px;
+}
+
+img {
+	border: 8px solid #CCC;
+	margin-bottom: 15px;
+}
+
+img.left {
+	float: left;
+	margin-right: 20px;
+}
+
+img.right {
+	float: right;
+	margin-left: 20px;
+}
+
+input, textarea {
+	border: 1px solid #EEE;
+	color: #777;
+	font-size: 12px;
+}
+
+label {
+	color: #777;
+	float: left;
+	font-size: 14px;
+	line-height: 30px;
+	width: 80px;
+}
+
+/* ===================== LIST STYLE ===================== */
+
+ul {
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+.last {
+	margin: 0;
+} 
+
+
+ol {
+	list-style-position: inside;
+	list-style-type: decimal;
+}
+
+p, pre, ul, ol, blockquote {
+	color: #777;
+	font-size: 95%;
+	line-height: 150%;
+	margin-bottom: 15px;
+}
+
+p.date {
+	color: #999;
+	font-size: 11px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+
+
+/* ===================== Top Bar Styles ===================== */
+#topBar {
+	background-color: #fff;
+	height: 29px;
+}
+
+/* ===================== Wrapper Styles ===================== */
+#wrapper {
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: left;
+	width: 940px;
+}
+
+/* ===================== Header Styles ===================== */
+#header {
+	height: 124px;
+	padding-bottom: 2px;
+	position: relative;
+	width: 900px;
+}
+
+#header h1 {
+	float: left;
+	margin: 20px 0;
+}
+
+#header h1 a {
+	display: block;
+	height: 90px;
+	width: 775px;
+}   
+
+#header #mainNav {
+	bottom: 0px;
+	height: 13px;
+	list-style: none;
+	margin-bottom: 0;
+	position: absolute;
+	right: 5px;
+}
+
+#header #mainNav li {
+	float: left;
+	margin-left: 25px;
+}
+
+
+/* NEW MENU */
+
+#mainNav { 
+height: 30px; 
+font-size: 18px;
+
+}
+
+
+
+
+
+/* ===================== Featured Content Styles ===================== */
+#featured {
+	background-color: #eee;
+	height: 387px;
+	list-style: none;
+	list-style-position: outside;
+	margin: 30px 0 0 0;
+	overflow: hidden;
+	padding-left: 0px;
+	position: relative;
+	width: 900px;
+
+}
+
+#featured img {
+	border: none;
+}
+
+#featured .imageContainer {
+	float: left;
+	width: 900px;
+}
+
+#featured .contentContainer {
+	float: left;
+	margin-right: 30px;
+	width: 398px;
+}
+
+#featured h2 {
+	margin-top: 32px;
+}
+
+#featuredNav {
+	background-color: #1A1A1A;
+	height: 55px;
+
+	list-style: none;
+	margin: 0 0 30px 0;
+	padding: 12px 30px 13px 30px;
+	width: 840px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#featuredNav li {
+	float: left;
+	margin: 0 5px 0 0;
+}
+
+#featuredNav img {
+	border: 0px solid #BBB;
+			float: right;
+margin: 0 5px 0 0;
+}
+
+#featuredNav img.selected {
+	border: 0px solid #555;
+}
+
+/* ===================== Location Styles ===================== */
+#location {
+	background: url("../images/underline.jpg") repeat-x bottom left;
+	margin: 0 0 25px 0;
+	overflow: hidden;
+	padding: 30px 0 25px 0;
+	width: 940px;
+}
+
+#location h2 {
+	float: left;
+	margin: -12px 0 0 0;
+}
+
+#location .button {
+	color: #EEE;
+	float: right;
+	height: 35px;
+	line-height: 34px;
+	margin-top: -7px;
+	padding: 0 22px;
+}
+
+/* ===================== Main Content Styles ===================== */
+#mainContent {
+	float: left;
+	width: 480px;
+}
+
+#left_sidebar #mainContent {
+	float: right;
+}
+
+#full_width #mainContent {
+	width: 900px;
+}
+
+/* ===================== Sidebar Styles ===================== */
+#sidebar {
+	float: right;
+	margin-left: 20px;
+	width: 300px;
+}
+
+#left_sidebar #sidebar {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+#sidebar ul {
+	list-style: none;
+	list-style-position: outside;
+}
+
+#sidebar .box {
+	margin-bottom: 25px;
+}
+
+
+
+/* ===================== Box Styles ===================== */
+.box {
+	float: left;
+	overflow: hidden;
+	width: 280px;
+}
+
+.box h3 {
+	border-bottom: 3px solid #EEE;
+	padding-bottom: 10px;
+}
+
+#mainContent .box {
+	margin-right: 50px;
+}
+
+#mainContent .box.last {
+	margin-right: 0;
+}
+
+.box img {
+	border: 6px solid #CCC;
+	float: left;
+	margin: 0 10px 15px 0;
+}
+
+.box img.last {
+	margin: 0;
+}
+
+
+/* ===================== Contact Form Styles ===================== */
+#contactForm div {
+	margin-top: 20px;
+}
+
+#contactForm input, #contactForm textarea {
+	font-size: 11px;
+	padding: 10px;
+	width: 300px;
+}
+
+#contactForm #submit {
+	background-color: #EEE;
+	font-size: 12px;
+	margin-left: 80px;
+	padding: 10px 20px;
+	width: auto;
+}
+
+/* ===================== Search Form Styles ===================== */
+#searchForm div {
+	float: left;
+}
+
+#searchForm input {
+	font-style: italic;
+	padding: 10px 5px;
+	width: 228px;
+}
+
+#searchForm #submit {
+	background-color: #EEE;
+	border: none;
+	font-style: normal;
+	padding: 10px 0;
+	width: 60px;
+}
+
+/* ===================== Social List Styles ===================== */
+#socialList {
+	list-style: none;
+	overflow: hidden;
+}
+
+#socialList li {
+	float: left;
+	margin-right: 5px;
+	text-indent: -9999px;
+}
+
+#socialList li a {
+	background: url("../images/socialicons.jpg") no-repeat top left;
+	display: block;
+	height: 32px;	
+	width: 32px;
+} 
+
+#socialList li a[title="Facebook"] {
+	background-position: -32px 0;
+}
+
+#socialList li a[title="Flickr"] {
+	background-position: -64px 0;
+}
+
+#socialList li a[title="Linkedin"] {
+	background-position: -96px 0;
+}
+
+#socialList li a[title="MySpace"] {
+	background-position: -128px 0;
+}
+
+#socialList li a[title="Twitter"] {
+	background-position: -160px;
+}
+
+/* ===================== Portfolio Styles ===================== */
+#works {
+	list-style: none;
+	list-style-position: outside;
+}
+
+/* ===================== Portfolio Carrousel Styles ===================== */
+#buttonsContainer {
+	border-bottom: 1px solid #EEE;
+	padding-bottom: 8px;
+}
+
+#buttonsContainer button {
+	background: url("http://unearthingthepen.com/images/arrow_up.jpg") no-repeat top left;
+	border: none;
+	height: 20px;
+	margin-left: 100px;
+	width: 20px;
+}
+
+#buttonsContainer button.next {
+	background-image: url("http://unearthingthepen.com/images/arrow_down.jpg");
+	margin: 0 100px 0 50px;
+}
+
+#carrousel li {
+	border-bottom: 1px solid #EEE;
+	overflow: hidden;
+	padding: 23px 20px;
+	width: 260px;
+}
+
+#carrousel li.selected {
+	background-color: #EEE;
+}
+
+#carrousel li img {
+	border: none;
+	margin: 0 10px 0 0;
+	float: left;
+}
+
+#carrousel li p, #carrousel li a {
+	font-size: 11px;
+	line-height: 13px;
+	margin: 0;
+}
+
+/* ===================== Portfolio Gallery Styles ===================== */
+.gallery {
+	list-style: none;
+	list-style-position: outside;
+}
+
+.gallery li {
+	float: left;
+	margin: 0 16px 0 0;
+}
+
+.gallery li.last {
+	margin-right: 0;
+}
+
+.gallery img {
+	border: 5px solid #CCC;
+	margin: 0;
+}
+
+/* ===================== Latest News Styles ===================== */
+.newsHeading {
+	margin-bottom: 15px;
+}
+
+.newsHeading .date {
+	margin-bottom: 0;
+}
+
+.newsHeading a {
+	color: #888;
+	font-size: 18px;
+}
+
+.newsHeading a:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+/* ===================== Footer Styles ===================== */
+#footer {
+	border-top: 1px solid #DDD;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#footer div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 20px 0;
+	text-align: left;
+	width: 860px;
+}
+
+#footer #secNav {
+	float: left;
+	list-style: none;
+	margin-bottom: 0;
+}
+
+#footer #secNav li {
+	float: left;
+	margin-right: 20px;
+}
+
+#footer #secNav li a {
+	color: #888;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#footer #secNav li a:hover {
+	color: #777;
+	text-decoration: none;
+}
+
+#footer p {
+	float: right;
+	font-size: 11px;
+	margin-bottom: 0;
+}
+
+#footer a {
+	font-size: 11px;
+}
